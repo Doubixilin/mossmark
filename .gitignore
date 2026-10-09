@@ -13,7 +13,7 @@ EditorEngine/coverage/
 *.pdf
 *.docx
 
-# Local submission screenshots and signing material are not public sources.
+# Local screenshots, credentials and signing material.
 /moss截图/
 .env
 .env.*

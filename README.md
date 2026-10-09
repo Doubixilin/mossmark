@@ -6,11 +6,11 @@
 
 苔记（Mossmark）是面向 macOS、iPhone 和 iPad 的本地 Markdown 阅读与编辑器，以 MIT 许可证提供源码。原生 Swift 外壳与离线 WKWebView 编辑内核共享文档处理、排版和 PDF/DOCX 导出能力。
 
-当前提供开源预览版，使用方式为下载源码并自行构建。已取消 App Store 上架计划及应用内打赏、商店评价提醒，暂不提供经过签名、公证的安装包。当前验证范围见 [验证记录](docs/VALIDATION.md)。
+下载源码后，可按下方说明自行构建并运行。
 
 ## 界面预览
 
-以下为项目此前准备的演示截图，展示阅读、编辑、源码和文档库界面。截图不代表当前版本已完成全部真机验收。
+以下演示截图展示阅读、编辑、源码和文档库界面。
 
 ### macOS
 
@@ -88,9 +88,9 @@ xcodebuild -project Mossmark.xcodeproj -scheme MossmarkiOS \
   -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build
 ```
 
-`EditorEngine/dist` 已随源码提交，App 从中加载离线资源；修改前端后需要重新构建。第三方声明生成依赖已安装的前端依赖及 `.build/checkouts/ZIPFoundation`，来源说明见 [第三方许可证](docs/licenses/README.md)。源码预检不要求商店商品、开发者 Team 或上架资料，旧 `--code-only` 参数仍可使用。
+`EditorEngine/dist` 已随源码提交，App 从中加载离线资源；修改前端后需要重新构建。第三方声明生成依赖已安装的前端依赖及 `.build/checkouts/ZIPFoundation`，来源说明见 [第三方许可证](docs/licenses/README.md)。
 
-在 Xcode 中打开 `Mossmark.xcodeproj`，选择 `MossmarkMac` 或 `MossmarkiOS` Scheme 运行。iPhone/iPad 真机运行需要选择自己的 Development Team。原有 Bundle ID 保留用于兼容已有开发版的文档容器；自行签名时可在 `project.yml` 修改两个应用目标的标识，再重新生成工程。更换标识后系统会使用新的应用容器，需要自行迁移文档。
+在 Xcode 中打开 `Mossmark.xcodeproj`，选择 `MossmarkMac` 或 `MossmarkiOS` Scheme 运行。iPhone/iPad 真机运行需要选择自己的 Development Team。自行签名时可在 `project.yml` 修改两个应用目标的 Bundle ID，再重新生成工程。更换标识后系统会使用新的应用容器，需要自行迁移文档。
 
 macOS 面向普通用户的安装包应另行完成 Developer ID 签名、公证与安装验证；iOS/iPadOS 当前以源码和自行构建为主要使用方式。参见 [Apple macOS 分发说明](https://developer.apple.com/developer-id/) 和 [个人开发团队说明](https://developer.apple.com/help/account/basics/about-your-developer-account)。
 
@@ -103,7 +103,7 @@ macOS 面向普通用户的安装包应另行完成 Developer ID 签名、公证
 - PDF 图表数量不一致时取消导出，避免静默丢图；
 - 不执行用户 HTML 脚本，仅渲染受限安全标签。
 
-项目没有广告、分析 SDK 或应用内购买。详见 [隐私说明](docs/PRIVACY.md)。
+项目没有广告或分析 SDK。详见 [隐私说明](docs/PRIVACY.md)。
 
 ## 目录与参与
 
@@ -114,7 +114,7 @@ EditorEngine/            离线编辑器、渲染器与前端测试
 Sources/MarkdownCore/    文档编码、资源隔离、解析和 OOXML 导出
 Tests/、UITests/         核心测试、UI 测试与验收语料
 docs/architecture/       当前架构决策
-docs/release/            依赖 SBOM 与公开源码核查
+docs/release/            依赖 SBOM 与源码核查记录
 project.yml              XcodeGen 工程规格
 ```
 
