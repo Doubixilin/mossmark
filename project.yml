@@ -1,0 +1,184 @@
+name: Mossmark
+
+options:
+  # Frozen to preserve the existing app identity and document container.
+  bundleIdPrefix: com.doubixilin.quietmark
+  deploymentTarget:
+    macOS: "14.0"
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+packages:
+  MarkdownWorkspace:
+    path: .
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  MossmarkMac:
+    type: application
+    platform: macOS
+    sources:
+      - Apps/MossmarkMac
+      - Apps/Shared
+      - path: EditorEngine/dist
+        type: folder
+        buildPhase: resources
+      - path: THIRD_PARTY_NOTICES.md
+        buildPhase: resources
+      - path: LICENSE
+        buildPhase: resources
+    dependencies:
+      - package: MarkdownWorkspace
+        product: MarkdownCore
+    info:
+      path: Apps/MossmarkMac/Info.plist
+      properties:
+        CFBundleDisplayName: Mossmark
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Markdown Document
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Alternate
+            LSItemContentTypes:
+              - net.daringfireball.markdown
+        UTImportedTypeDeclarations:
+          - UTTypeConformsTo:
+              - public.plain-text
+            UTTypeDescription: Markdown Document
+            UTTypeIdentifier: net.daringfireball.markdown
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - md
+                - markdown
+                - mdown
+                - mkd
+              public.mime-type: text/markdown
+        NSHumanReadableCopyright: Copyright © 2026 Doubixilin
+        LSApplicationCategoryType: public.app-category.productivity
+        ITSAppUsesNonExemptEncryption: false
+        NSSupportsAutomaticTermination: true
+        NSSupportsSuddenTermination: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.doubixilin.quietmark
+        PRODUCT_NAME: Mossmark
+        CODE_SIGN_ENTITLEMENTS: Apps/MossmarkMac/MossmarkMac.entitlements
+        CODE_SIGN_STYLE: Automatic
+
+  MossmarkiOS:
+    type: application
+    platform: iOS
+    sources:
+      - Apps/MossmarkiOS
+      - Apps/Shared
+      - path: EditorEngine/dist
+        type: folder
+        buildPhase: resources
+      - path: THIRD_PARTY_NOTICES.md
+        buildPhase: resources
+      - path: LICENSE
+        buildPhase: resources
+    dependencies:
+      - package: MarkdownWorkspace
+        product: MarkdownCore
+    info:
+      path: Apps/MossmarkiOS/Info.plist
+      properties:
+        CFBundleDisplayName: Mossmark
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Markdown Document
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Alternate
+            LSItemContentTypes:
+              - net.daringfireball.markdown
+        UTImportedTypeDeclarations:
+          - UTTypeConformsTo:
+              - public.plain-text
+            UTTypeDescription: Markdown Document
+            UTTypeIdentifier: net.daringfireball.markdown
+            UTTypeTagSpecification:
+              public.filename-extension:
+                - md
+                - markdown
+                - mdown
+                - mkd
+              public.mime-type: text/markdown
+        LSSupportsOpeningDocumentsInPlace: true
+        UIFileSharingEnabled: true
+        UIApplicationSupportsIndirectInputEvents: true
+        UIRequiresFullScreen: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UILaunchScreen: {}
+        NSHumanReadableCopyright: Copyright © 2026 Doubixilin
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.doubixilin.quietmark
+        PRODUCT_NAME: Mossmark
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1,2"
+
+  MossmarkMacUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - UITests/MossmarkMacUITests
+    dependencies:
+      - target: MossmarkMac
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.doubixilin.mossmark.uitests.mac
+        TEST_TARGET_NAME: MossmarkMac
+        GENERATE_INFOPLIST_FILE: YES
+
+  MossmarkiOSUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - UITests/MossmarkiOSUITests
+    dependencies:
+      - target: MossmarkiOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.doubixilin.mossmark.uitests.ios
+        TEST_TARGET_NAME: MossmarkiOS
+        TARGETED_DEVICE_FAMILY: "1,2"
+        GENERATE_INFOPLIST_FILE: YES
+
+schemes:
+  MossmarkMac:
+    build:
+      targets:
+        MossmarkMac: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - MossmarkMacUITests
+  MossmarkiOS:
+    build:
+      targets:
+        MossmarkiOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - MossmarkiOSUITests

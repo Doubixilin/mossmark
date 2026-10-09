@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Mossmark folded document M logo</title>
+  <desc id="description">An optically centered M sits inside a folded document outline.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M374 226H602L786 410V632C786 710 728 768 650 768H374C296 768 238 710 238 632V362C238 284 296 226 374 226Z" stroke="#123B43" stroke-width="82"/>
+    <path d="M602 232V410H780" stroke="#49D0C7" stroke-width="60"/>
+    <path d="M356 632V466L512 596L668 466V632" stroke="#123B43" stroke-width="72"/>
+  </g>
+</svg>

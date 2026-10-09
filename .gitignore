@@ -1,0 +1,25 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+EditorEngine/node_modules/
+EditorEngine/.vite/
+EditorEngine/coverage/
+.pnpm-store/
+
+*.pdf
+*.docx
+
+# Local submission screenshots and signing material are not public sources.
+/moss截图/
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile

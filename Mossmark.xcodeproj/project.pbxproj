@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024BF13CC5A432700A1DD4A4 /* DocumentLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBEAACA12E851CE06699CD42 /* DocumentLibraryView.swift */; };
+		0372F8FB79CFDE37CA5679D6 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = 6AEEA97050B9446900CD4C3F /* THIRD_PARTY_NOTICES.md */; };
+		072C94FD1170AD47C7B0929A /* MossmarkiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BECBFA993D6C699F23CADBB /* MossmarkiOSUITests.swift */; };
+		15823B4E181383124395D9DB /* MossmarkMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5477E541478097F78DF10CD4 /* MossmarkMacUITests.swift */; };
+		19F2546304B3B717D5CB333C /* iOSShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A2F757C429927C90DFE77 /* iOSShareSheet.swift */; };
+		1B47F1EC4E93F5AA36993892 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = 6AEEA97050B9446900CD4C3F /* THIRD_PARTY_NOTICES.md */; };
+		1D49858DCDF033C4E5E7DD87 /* OpenedDocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556C7C17AA1C36E0CEBE6D5 /* OpenedDocumentStore.swift */; };
+		2484CA80C50AB2D3E507F309 /* MossmarkiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51630F1F8297053046C751BD /* MossmarkiOSApp.swift */; };
+		26B097B4FA636E2A22E0815D /* DocumentLibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368199E35969C87FC91E2BD3 /* DocumentLibraryStore.swift */; };
+		2E1295FE25A8E1BF51304CA4 /* ReadingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0C29C7A37C1C6011CBC64 /* ReadingHistory.swift */; };
+		2E143764D9A3F69A8BD14F2C /* MarkdownEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1463D4A1CF923BB3246198 /* MarkdownEditorController.swift */; };
+		3502FD9713C07F79F3356E4B /* MossmarkSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FC6E3EC5943C19A868F60 /* MossmarkSettingsView.swift */; };
+		3A01807317E31DFF1235FFDF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FAFAFC214C40174A847CD /* Localizable.strings */; };
+		42184C92C6B8BEF91D590482 /* MossmarkBrandMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FA4AC208A222CEE209708 /* MossmarkBrandMigration.swift */; };
+		43BC9438DD6CB81B3459FF41 /* MarkdownExportImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78686E3BB585F2A5535166D /* MarkdownExportImageLoader.swift */; };
+		47B1FB58E1A8EE686FB791F2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 112F4490901EEB2E598375ED /* PrivacyInfo.xcprivacy */; };
+		4B85C9D5D44F81B530F93AC2 /* MarkdownFileDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533DB3726006FC1692A1FBA /* MarkdownFileDocument.swift */; };
+		4C55D7818C0920671B464DEB /* MarkdownEditorAssetSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157F16A3D084DD6793D70C /* MarkdownEditorAssetSchemeHandler.swift */; };
+		58831813C05D5B2A071E809B /* MarkdownFileDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533DB3726006FC1692A1FBA /* MarkdownFileDocument.swift */; };
+		5AAB7FC5F0B6724E4AD72DAD /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1439726552229755723CE /* MarkdownDocumentView.swift */; };
+		5BB30ABE446E972D5675761A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45D04EBA3C349C5EAC105AC /* InfoPlist.strings */; };
+		65D82DD8FF43D612BEA7A2B0 /* MossmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CD31BF0D2DCF6F02182B /* MossmarkCommands.swift */; };
+		6A8E5F6193F1F488C2C1FE61 /* MossmarkProjectConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6DD634531EE6B5EF3C9EE /* MossmarkProjectConfiguration.swift */; };
+		6B33B2189FA502BDEAF355DF /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 809FD7D482C31323B74AC8C0 /* dist */; };
+		6FED399491B40EAD40640524 /* MarkdownDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1439726552229755723CE /* MarkdownDocumentView.swift */; };
+		71974D6F9B4877CFDFC604E6 /* MarkdownEditorAssetSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23157F16A3D084DD6793D70C /* MarkdownEditorAssetSchemeHandler.swift */; };
+		76EC972EB25B77B70ABF46FD /* MossmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4CD31BF0D2DCF6F02182B /* MossmarkCommands.swift */; };
+		79C9F1E818C2339BDCC79C65 /* MarkdownCore in Frameworks */ = {isa = PBXBuildFile; productRef = 85DC5336DFB91C0A882CB8AC /* MarkdownCore */; };
+		800CEC3C361605787EF199E7 /* MossmarkProjectConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6DD634531EE6B5EF3C9EE /* MossmarkProjectConfiguration.swift */; };
+		963743C3B5FB85CD4291844F /* MarkdownEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1463D4A1CF923BB3246198 /* MarkdownEditorController.swift */; };
+		966ED4895D03AC0EAF6BBE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CC1B2FF86E1B0117D295B5 /* Assets.xcassets */; };
+		98D5AB3505012EA8560EADFF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 112F4490901EEB2E598375ED /* PrivacyInfo.xcprivacy */; };
+		9AE3E36DF4874A03F18BDDDB /* MarkdownExportImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78686E3BB585F2A5535166D /* MarkdownExportImageLoader.swift */; };
+		9BDEB096F81FC130FE92B797 /* MarkdownEditorWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527201B4EC40F5CA964D672 /* MarkdownEditorWebView.swift */; };
+		9F58BAADA189F55D2DAD4E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DE6E44CEC3B3CD64B87267 /* Assets.xcassets */; };
+		A75EC1E1970C2B77E48A419A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3974765D78893057FA2D1084 /* LICENSE */; };
+		B757F68D6329A9DFC9CD4580 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FAFAFC214C40174A847CD /* Localizable.strings */; };
+		BAEB455A7426D594A5399A20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45D04EBA3C349C5EAC105AC /* InfoPlist.strings */; };
+		BFB5626B1C6718746753A79B /* ReadingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A0C29C7A37C1C6011CBC64 /* ReadingHistory.swift */; };
+		C56095BFD116C4E18EA7455D /* MossmarkSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FC6E3EC5943C19A868F60 /* MossmarkSettingsView.swift */; };
+		D615C3769A29EEAED2BC6AA6 /* MossmarkBrandMigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792FA4AC208A222CEE209708 /* MossmarkBrandMigration.swift */; };
+		E0ACDB7E0AD0D75E1E3EF8AD /* MarkdownCore in Frameworks */ = {isa = PBXBuildFile; productRef = C365DFFC7F5F50EC6DDBD6A2 /* MarkdownCore */; };
+		E2C31EB8CFF21D90AB8E369A /* MossmarkMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC287E4019641C2DD1266CAF /* MossmarkMacApp.swift */; };
+		E4F9D8D007E19E4E91E9D6CB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3974765D78893057FA2D1084 /* LICENSE */; };
+		E60FD3525BC27FEFB2DA7A87 /* MarkdownEditorWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0527201B4EC40F5CA964D672 /* MarkdownEditorWebView.swift */; };
+		E9B0D4F5F75FAAD4B6490346 /* BinaryExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D631444BDED0388E1DA55 /* BinaryExportDocument.swift */; };
+		EB6D282981592F2490786F60 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 809FD7D482C31323B74AC8C0 /* dist */; };
+		EBD088976DAAA5C190F207D3 /* BinaryExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6D631444BDED0388E1DA55 /* BinaryExportDocument.swift */; };
+		F4505CE64BC70E84E7D45CE2 /* iOSShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671A2F757C429927C90DFE77 /* iOSShareSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848D5A40B4116DA3194B81EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074E9D7F67736CDEC4A5AB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8942A02184B8C2783E1506;
+			remoteInfo = MossmarkiOS;
+		};
+		EC0A3D49AAE6B6D390D09872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074E9D7F67736CDEC4A5AB5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DC09C2CB29D99A021CB77B;
+			remoteInfo = MossmarkMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0527201B4EC40F5CA964D672 /* MarkdownEditorWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorWebView.swift; sourceTree = "<group>"; };
+		112F4490901EEB2E598375ED /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		117DDF301872EE59D945DDD2 /* MossmarkiOSUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MossmarkiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A6DD634531EE6B5EF3C9EE /* MossmarkProjectConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkProjectConfiguration.swift; sourceTree = "<group>"; };
+		1533DB3726006FC1692A1FBA /* MarkdownFileDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFileDocument.swift; sourceTree = "<group>"; };
+		1D6D631444BDED0388E1DA55 /* BinaryExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryExportDocument.swift; sourceTree = "<group>"; };
+		22828860D6AC40462B6C13FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23157F16A3D084DD6793D70C /* MarkdownEditorAssetSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorAssetSchemeHandler.swift; sourceTree = "<group>"; };
+		2D736E49A0141EAAF082D37D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2FF1439726552229755723CE /* MarkdownDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownDocumentView.swift; sourceTree = "<group>"; };
+		368199E35969C87FC91E2BD3 /* DocumentLibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLibraryStore.swift; sourceTree = "<group>"; };
+		3974765D78893057FA2D1084 /* LICENSE */ = {isa = PBXFileReference; path = LICENSE; sourceTree = "<group>"; };
+		4A15967FB611ECA135B07CE4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		51630F1F8297053046C751BD /* MossmarkiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkiOSApp.swift; sourceTree = "<group>"; };
+		5477E541478097F78DF10CD4 /* MossmarkMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkMacUITests.swift; sourceTree = "<group>"; };
+		5EDA3C8EC545C890F6CF9BC2 /* Mossmark-OpenSource */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Mossmark-OpenSource"; path = .; sourceTree = SOURCE_ROOT; };
+		671A2F757C429927C90DFE77 /* iOSShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSShareSheet.swift; sourceTree = "<group>"; };
+		6AEEA97050B9446900CD4C3F /* THIRD_PARTY_NOTICES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+		792FA4AC208A222CEE209708 /* MossmarkBrandMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkBrandMigration.swift; sourceTree = "<group>"; };
+		7D1463D4A1CF923BB3246198 /* MarkdownEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorController.swift; sourceTree = "<group>"; };
+		809FD7D482C31323B74AC8C0 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = EditorEngine/dist; sourceTree = SOURCE_ROOT; };
+		81A0C29C7A37C1C6011CBC64 /* ReadingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingHistory.swift; sourceTree = "<group>"; };
+		8212DE5098CDDB71A4DC2653 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		83DE6E44CEC3B3CD64B87267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BECBFA993D6C699F23CADBB /* MossmarkiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkiOSUITests.swift; sourceTree = "<group>"; };
+		91CC1B2FF86E1B0117D295B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93B8FBC40AE2CDAE2A209A3D /* MossmarkMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MossmarkMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9556C7C17AA1C36E0CEBE6D5 /* OpenedDocumentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenedDocumentStore.swift; sourceTree = "<group>"; };
+		991871B6ECC649BCA451DD95 /* MossmarkMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MossmarkMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78686E3BB585F2A5535166D /* MarkdownExportImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownExportImageLoader.swift; sourceTree = "<group>"; };
+		B557C92768C6956019AE84F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BAB4CD31BF0D2DCF6F02182B /* MossmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkCommands.swift; sourceTree = "<group>"; };
+		BBEAACA12E851CE06699CD42 /* DocumentLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLibraryView.swift; sourceTree = "<group>"; };
+		BC8347CFFCFCD918E1797E77 /* MossmarkMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MossmarkMac.entitlements; sourceTree = "<group>"; };
+		E25EE006A0A204C0D94A5AFD /* MossmarkiOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MossmarkiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8131746BAEB49F6E8B72F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F22FC6E3EC5943C19A868F60 /* MossmarkSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkSettingsView.swift; sourceTree = "<group>"; };
+		FC287E4019641C2DD1266CAF /* MossmarkMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MossmarkMacApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA07116336D027C5C00A7F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ACDB7E0AD0D75E1E3EF8AD /* MarkdownCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C824B8ACC9317B997AC281A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C9F1E818C2339BDCC79C65 /* MarkdownCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1283CF61394E8EA1721422 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5EDA3C8EC545C890F6CF9BC2 /* Mossmark-OpenSource */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		103B5306288BB6B938560CC4 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1330A080217E1E62E553C464 /* MossmarkiOSUITests */,
+				D96E0D4887738F57C213A469 /* MossmarkMacUITests */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		1330A080217E1E62E553C464 /* MossmarkiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BECBFA993D6C699F23CADBB /* MossmarkiOSUITests.swift */,
+			);
+			path = MossmarkiOSUITests;
+			sourceTree = "<group>";
+		};
+		1AD02667639E3A38AFE904E0 /* MossmarkMac */ = {
+			isa = PBXGroup;
+			children = (
+				91CC1B2FF86E1B0117D295B5 /* Assets.xcassets */,
+				B557C92768C6956019AE84F9 /* Info.plist */,
+				BC8347CFFCFCD918E1797E77 /* MossmarkMac.entitlements */,
+				FC287E4019641C2DD1266CAF /* MossmarkMacApp.swift */,
+			);
+			path = MossmarkMac;
+			sourceTree = "<group>";
+		};
+		4173E4F1A6BD7AB353080AD7 = {
+			isa = PBXGroup;
+			children = (
+				3974765D78893057FA2D1084 /* LICENSE */,
+				6AEEA97050B9446900CD4C3F /* THIRD_PARTY_NOTICES.md */,
+				E96C583B58F881BCC4ED9FD8 /* Apps */,
+				E4557F46747AC5F8DA1807A5 /* EditorEngine */,
+				0D1283CF61394E8EA1721422 /* Packages */,
+				103B5306288BB6B938560CC4 /* UITests */,
+				FBF7E61809C298D7494459B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B01D9093EF3EEED253CDD84 /* MossmarkiOS */ = {
+			isa = PBXGroup;
+			children = (
+				83DE6E44CEC3B3CD64B87267 /* Assets.xcassets */,
+				368199E35969C87FC91E2BD3 /* DocumentLibraryStore.swift */,
+				BBEAACA12E851CE06699CD42 /* DocumentLibraryView.swift */,
+				EC8131746BAEB49F6E8B72F9 /* Info.plist */,
+				51630F1F8297053046C751BD /* MossmarkiOSApp.swift */,
+				9556C7C17AA1C36E0CEBE6D5 /* OpenedDocumentStore.swift */,
+			);
+			path = MossmarkiOS;
+			sourceTree = "<group>";
+		};
+		9885AD489525F05C02A80336 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F45D04EBA3C349C5EAC105AC /* InfoPlist.strings */,
+				8A7FAFAFC214C40174A847CD /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A80F3A37339E1BEF49167540 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1D6D631444BDED0388E1DA55 /* BinaryExportDocument.swift */,
+				671A2F757C429927C90DFE77 /* iOSShareSheet.swift */,
+				2FF1439726552229755723CE /* MarkdownDocumentView.swift */,
+				23157F16A3D084DD6793D70C /* MarkdownEditorAssetSchemeHandler.swift */,
+				7D1463D4A1CF923BB3246198 /* MarkdownEditorController.swift */,
+				0527201B4EC40F5CA964D672 /* MarkdownEditorWebView.swift */,
+				A78686E3BB585F2A5535166D /* MarkdownExportImageLoader.swift */,
+				1533DB3726006FC1692A1FBA /* MarkdownFileDocument.swift */,
+				792FA4AC208A222CEE209708 /* MossmarkBrandMigration.swift */,
+				BAB4CD31BF0D2DCF6F02182B /* MossmarkCommands.swift */,
+				13A6DD634531EE6B5EF3C9EE /* MossmarkProjectConfiguration.swift */,
+				F22FC6E3EC5943C19A868F60 /* MossmarkSettingsView.swift */,
+				112F4490901EEB2E598375ED /* PrivacyInfo.xcprivacy */,
+				81A0C29C7A37C1C6011CBC64 /* ReadingHistory.swift */,
+				9885AD489525F05C02A80336 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D96E0D4887738F57C213A469 /* MossmarkMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5477E541478097F78DF10CD4 /* MossmarkMacUITests.swift */,
+			);
+			path = MossmarkMacUITests;
+			sourceTree = "<group>";
+		};
+		E4557F46747AC5F8DA1807A5 /* EditorEngine */ = {
+			isa = PBXGroup;
+			children = (
+				809FD7D482C31323B74AC8C0 /* dist */,
+			);
+			path = EditorEngine;
+			sourceTree = "<group>";
+		};
+		E96C583B58F881BCC4ED9FD8 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				7B01D9093EF3EEED253CDD84 /* MossmarkiOS */,
+				1AD02667639E3A38AFE904E0 /* MossmarkMac */,
+				A80F3A37339E1BEF49167540 /* Shared */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		FBF7E61809C298D7494459B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25EE006A0A204C0D94A5AFD /* MossmarkiOS.app */,
+				117DDF301872EE59D945DDD2 /* MossmarkiOSUITests.xctest */,
+				991871B6ECC649BCA451DD95 /* MossmarkMac.app */,
+				93B8FBC40AE2CDAE2A209A3D /* MossmarkMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C74EBDB0E4BF97CCD48946 /* MossmarkiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2789C91D0DA48DC77633068B /* Build configuration list for PBXNativeTarget "MossmarkiOSUITests" */;
+			buildPhases = (
+				FF7F507480ED414CA4117950 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F036E348FAAB2E9C5FB827 /* PBXTargetDependency */,
+			);
+			name = MossmarkiOSUITests;
+			packageProductDependencies = (
+			);
+			productName = MossmarkiOSUITests;
+			productReference = 117DDF301872EE59D945DDD2 /* MossmarkiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8BFAE8B69632969B0413B62A /* MossmarkMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0533C2AEA4027919204F1C78 /* Build configuration list for PBXNativeTarget "MossmarkMacUITests" */;
+			buildPhases = (
+				0AFB23BE8A004F4D58DAF672 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CAF73A244D9A5F5C71C813 /* PBXTargetDependency */,
+			);
+			name = MossmarkMacUITests;
+			packageProductDependencies = (
+			);
+			productName = MossmarkMacUITests;
+			productReference = 93B8FBC40AE2CDAE2A209A3D /* MossmarkMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C4DC09C2CB29D99A021CB77B /* MossmarkMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8477C0A14727FCD10515AD51 /* Build configuration list for PBXNativeTarget "MossmarkMac" */;
+			buildPhases = (
+				BF31F26768BD1AEA8DA3E378 /* Sources */,
+				3785A730CA4ED55695C7E511 /* Resources */,
+				BA07116336D027C5C00A7F33 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MossmarkMac;
+			packageProductDependencies = (
+				C365DFFC7F5F50EC6DDBD6A2 /* MarkdownCore */,
+			);
+			productName = MossmarkMac;
+			productReference = 991871B6ECC649BCA451DD95 /* MossmarkMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA8942A02184B8C2783E1506 /* MossmarkiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B00FEAF3BAAED5BDF017FBD /* Build configuration list for PBXNativeTarget "MossmarkiOS" */;
+			buildPhases = (
+				288D8C823DD616382DD65631 /* Sources */,
+				73C033B58AFA60E7A694342D /* Resources */,
+				C824B8ACC9317B997AC281A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MossmarkiOS;
+			packageProductDependencies = (
+				85DC5336DFB91C0A882CB8AC /* MarkdownCore */,
+			);
+			productName = MossmarkiOS;
+			productReference = E25EE006A0A204C0D94A5AFD /* MossmarkiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074E9D7F67736CDEC4A5AB5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					46C74EBDB0E4BF97CCD48946 = {
+						TestTargetID = DA8942A02184B8C2783E1506;
+					};
+					8BFAE8B69632969B0413B62A = {
+						TestTargetID = C4DC09C2CB29D99A021CB77B;
+					};
+					C4DC09C2CB29D99A021CB77B = {
+						ProvisioningStyle = Automatic;
+					};
+					DA8942A02184B8C2783E1506 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 090679ABA07C214CA58E8662 /* Build configuration list for PBXProject "Mossmark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 4173E4F1A6BD7AB353080AD7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8E3622087FC518C30E7D3490 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBF7E61809C298D7494459B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4DC09C2CB29D99A021CB77B /* MossmarkMac */,
+				DA8942A02184B8C2783E1506 /* MossmarkiOS */,
+				8BFAE8B69632969B0413B62A /* MossmarkMacUITests */,
+				46C74EBDB0E4BF97CCD48946 /* MossmarkiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3785A730CA4ED55695C7E511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966ED4895D03AC0EAF6BBE6E /* Assets.xcassets in Resources */,
+				BAEB455A7426D594A5399A20 /* InfoPlist.strings in Resources */,
+				E4F9D8D007E19E4E91E9D6CB /* LICENSE in Resources */,
+				B757F68D6329A9DFC9CD4580 /* Localizable.strings in Resources */,
+				98D5AB3505012EA8560EADFF /* PrivacyInfo.xcprivacy in Resources */,
+				0372F8FB79CFDE37CA5679D6 /* THIRD_PARTY_NOTICES.md in Resources */,
+				6B33B2189FA502BDEAF355DF /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C033B58AFA60E7A694342D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F58BAADA189F55D2DAD4E9B /* Assets.xcassets in Resources */,
+				5BB30ABE446E972D5675761A /* InfoPlist.strings in Resources */,
+				A75EC1E1970C2B77E48A419A /* LICENSE in Resources */,
+				3A01807317E31DFF1235FFDF /* Localizable.strings in Resources */,
+				47B1FB58E1A8EE686FB791F2 /* PrivacyInfo.xcprivacy in Resources */,
+				1B47F1EC4E93F5AA36993892 /* THIRD_PARTY_NOTICES.md in Resources */,
+				EB6D282981592F2490786F60 /* dist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AFB23BE8A004F4D58DAF672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15823B4E181383124395D9DB /* MossmarkMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288D8C823DD616382DD65631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B0D4F5F75FAAD4B6490346 /* BinaryExportDocument.swift in Sources */,
+				26B097B4FA636E2A22E0815D /* DocumentLibraryStore.swift in Sources */,
+				024BF13CC5A432700A1DD4A4 /* DocumentLibraryView.swift in Sources */,
+				6FED399491B40EAD40640524 /* MarkdownDocumentView.swift in Sources */,
+				71974D6F9B4877CFDFC604E6 /* MarkdownEditorAssetSchemeHandler.swift in Sources */,
+				2E143764D9A3F69A8BD14F2C /* MarkdownEditorController.swift in Sources */,
+				9BDEB096F81FC130FE92B797 /* MarkdownEditorWebView.swift in Sources */,
+				43BC9438DD6CB81B3459FF41 /* MarkdownExportImageLoader.swift in Sources */,
+				4B85C9D5D44F81B530F93AC2 /* MarkdownFileDocument.swift in Sources */,
+				42184C92C6B8BEF91D590482 /* MossmarkBrandMigration.swift in Sources */,
+				65D82DD8FF43D612BEA7A2B0 /* MossmarkCommands.swift in Sources */,
+				6A8E5F6193F1F488C2C1FE61 /* MossmarkProjectConfiguration.swift in Sources */,
+				3502FD9713C07F79F3356E4B /* MossmarkSettingsView.swift in Sources */,
+				2484CA80C50AB2D3E507F309 /* MossmarkiOSApp.swift in Sources */,
+				1D49858DCDF033C4E5E7DD87 /* OpenedDocumentStore.swift in Sources */,
+				2E1295FE25A8E1BF51304CA4 /* ReadingHistory.swift in Sources */,
+				19F2546304B3B717D5CB333C /* iOSShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF31F26768BD1AEA8DA3E378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD088976DAAA5C190F207D3 /* BinaryExportDocument.swift in Sources */,
+				5AAB7FC5F0B6724E4AD72DAD /* MarkdownDocumentView.swift in Sources */,
+				4C55D7818C0920671B464DEB /* MarkdownEditorAssetSchemeHandler.swift in Sources */,
+				963743C3B5FB85CD4291844F /* MarkdownEditorController.swift in Sources */,
+				E60FD3525BC27FEFB2DA7A87 /* MarkdownEditorWebView.swift in Sources */,
+				9AE3E36DF4874A03F18BDDDB /* MarkdownExportImageLoader.swift in Sources */,
+				58831813C05D5B2A071E809B /* MarkdownFileDocument.swift in Sources */,
+				D615C3769A29EEAED2BC6AA6 /* MossmarkBrandMigration.swift in Sources */,
+				76EC972EB25B77B70ABF46FD /* MossmarkCommands.swift in Sources */,
+				E2C31EB8CFF21D90AB8E369A /* MossmarkMacApp.swift in Sources */,
+				800CEC3C361605787EF199E7 /* MossmarkProjectConfiguration.swift in Sources */,
+				C56095BFD116C4E18EA7455D /* MossmarkSettingsView.swift in Sources */,
+				BFB5626B1C6718746753A79B /* ReadingHistory.swift in Sources */,
+				F4505CE64BC70E84E7D45CE2 /* iOSShareSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7F507480ED414CA4117950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C94FD1170AD47C7B0929A /* MossmarkiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76CAF73A244D9A5F5C71C813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4DC09C2CB29D99A021CB77B /* MossmarkMac */;
+			targetProxy = EC0A3D49AAE6B6D390D09872 /* PBXContainerItemProxy */;
+		};
+		F1F036E348FAAB2E9C5FB827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8942A02184B8C2783E1506 /* MossmarkiOS */;
+			targetProxy = 848D5A40B4116DA3194B81EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A7FAFAFC214C40174A847CD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8212DE5098CDDB71A4DC2653 /* en */,
+				2D736E49A0141EAAF082D37D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F45D04EBA3C349C5EAC105AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22828860D6AC40462B6C13FE /* en */,
+				4A15967FB611ECA135B07CE4 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065A626587BF809C5F710D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Apps/MossmarkiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.quietmark;
+				PRODUCT_NAME = Mossmark;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36B802C43FB374862EF761D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		425F3FB5381EF2097332D440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Apps/MossmarkiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.quietmark;
+				PRODUCT_NAME = Mossmark;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A177736D37999FD69A277A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.mossmark.uitests.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MossmarkiOS;
+			};
+			name = Release;
+		};
+		5D55A18112F1C7C5E8B7D28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.mossmark.uitests.mac;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = MossmarkMac;
+			};
+			name = Release;
+		};
+		5FB38ECC05F26BD501620755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6F5D4B2782D975F4164E9DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.mossmark.uitests.mac;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = MossmarkMac;
+			};
+			name = Debug;
+		};
+		7A0FC15BA864383333BB565E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/MossmarkMac/MossmarkMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Apps/MossmarkMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.quietmark;
+				PRODUCT_NAME = Mossmark;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADC6C4E87B93084E8CC0AC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.mossmark.uitests.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MossmarkiOS;
+			};
+			name = Debug;
+		};
+		DE5152355543DFB31EDB0A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Apps/MossmarkMac/MossmarkMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Apps/MossmarkMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubixilin.quietmark;
+				PRODUCT_NAME = Mossmark;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0533C2AEA4027919204F1C78 /* Build configuration list for PBXNativeTarget "MossmarkMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5D4B2782D975F4164E9DB2 /* Debug */,
+				5D55A18112F1C7C5E8B7D28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		090679ABA07C214CA58E8662 /* Build configuration list for PBXProject "Mossmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B802C43FB374862EF761D8 /* Debug */,
+				5FB38ECC05F26BD501620755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2789C91D0DA48DC77633068B /* Build configuration list for PBXNativeTarget "MossmarkiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC6C4E87B93084E8CC0AC9A /* Debug */,
+				4A177736D37999FD69A277A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2B00FEAF3BAAED5BDF017FBD /* Build configuration list for PBXNativeTarget "MossmarkiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065A626587BF809C5F710D91 /* Debug */,
+				425F3FB5381EF2097332D440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8477C0A14727FCD10515AD51 /* Build configuration list for PBXNativeTarget "MossmarkMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0FC15BA864383333BB565E /* Debug */,
+				DE5152355543DFB31EDB0A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8E3622087FC518C30E7D3490 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85DC5336DFB91C0A882CB8AC /* MarkdownCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarkdownCore;
+		};
+		C365DFFC7F5F50EC6DDBD6A2 /* MarkdownCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarkdownCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 074E9D7F67736CDEC4A5AB5B /* Project object */;
+}

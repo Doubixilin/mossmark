@@ -1,0 +1,24 @@
+{
+  "fastdom@1.0.12": {
+    "file": "fastdom-1.0.12.txt",
+    "source": "https://registry.npmjs.org/fastdom/-/fastdom-1.0.12.tgz",
+    "sourcePath": "package/README.md#license",
+    "archiveIntegrity": "sha512-LB+xjSTEbjHE1cWsxu+tN2Xqr1kpi+V9aADI7sVM5ZMaXyYGPHULQMzpJMYqOTULK/73pUkWVzzObFRBkPr+hg==",
+    "sha256": "50c0de64f5cd5e39859b43f7eca7f5843fb3c3d5ac7e34a453e27419ad51e08c"
+  },
+  "strictdom@1.0.1": {
+    "file": "strictdom-1.0.1.txt",
+    "source": "https://raw.githubusercontent.com/wilsonpage/strictdom/a3bbf19013ecc9c9d165dd4ed89e94757161443e/README.md",
+    "sha256": "2c0cd14e6202a458ca4831c68bbd5c6f22458fb95e9edce3c48a25db8cbb9273"
+  },
+  "punycode.js@2.3.1": {
+    "file": "punycode.js-2.3.1.txt",
+    "source": "https://raw.githubusercontent.com/mathiasbynens/punycode.js/9e1b2cda98d215d3a73fcbfe93c62e021f4ba768/LICENSE-MIT.txt",
+    "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+  },
+  "remark-math@6.0.0": {
+    "file": "remark-math-6.0.0.txt",
+    "source": "https://raw.githubusercontent.com/remarkjs/remark-math/d5d0660b150810a535bbb07eac6cc96a4510aa24/license",
+    "sha256": "cb992262f361a5359e6771c28740d33c7041e15332ae8537fae40538992591a9"
+  }
+}

@@ -1,0 +1,117 @@
+"mode.reading" = "阅读";
+"mode.edit" = "编辑";
+"mode.source" = "源码";
+
+"settings.title" = "设置";
+"settings.about" = "关于";
+"settings.app-name" = "App";
+"settings.version" = "版本";
+"settings.privacy-policy" = "隐私政策";
+"settings.legal-notices" = "法律声明";
+"settings.legal-notices-unavailable" = "无法载入法律声明。";
+
+"common.done" = "完成";
+"settings.project-license" = "MIT 许可证";
+"settings.report-issue" = "反馈问题";
+"settings.project-page" = "GitHub 项目主页";
+"settings.project-and-help" = "项目与帮助";
+"common.ok" = "好";
+"common.close" = "关闭";
+"find.previous" = "上一个结果";
+"find.next" = "下一个结果";
+"error.title" = "Mossmark 无法完成操作";
+
+"error.pdf.invalid" = "WebKit 未返回有效的 PDF 数据。";
+"error.editor.not-ready" = "编辑器尚未准备完成，请稍后重试。";
+"error.editor.invalid-result" = "编辑器返回了 Mossmark 无法识别的数据。";
+"error.editor.resources-missing" = "Mossmark 的编辑器资源缺失。请重新安装 App；你的 Markdown 文件未被修改。";
+"error.editor.process-terminated" = "编辑器视图崩溃，正在重新加载。继续编辑前请核对最新文本。";
+"error.document.invalid-utf8" = "此文件不是有效的 UTF-8 或 UTF-16 Markdown。";
+"error.document.invalid-utf8-recovery" = "Mossmark 支持打开 UTF-8 文件和带字节顺序标记（BOM）的 UTF-16 文件。请在其他 App 中把文件副本转换为 UTF-8，再打开转换后的副本。Mossmark 未修改原文件。";
+"error.pdf.page-limit" = "文档超过 PDF 导出安全页数上限。";
+"error.pdf.graphics" = "PDF 图表渲染不完整（应有 %lld 个，实际 %lld 个），已取消导出以避免丢图。";
+"find.not-found %@" = "未找到“%@”。";
+"replace.none" = "没有可替换的内容。";
+"replace.count %lld" = "已替换 %lld 处。";
+"export.mermaid-diagram" = "Mermaid 图表";
+"export.image-placeholder %@" = "[图片：%@]";
+"export.table-of-contents" = "目录";
+
+"typography.title" = "阅读排版";
+"typography.quiet" = "静谧";
+"typography.paper" = "纸张";
+"typography.code" = "代码";
+
+"stats.document" = "文档";
+"stats.words" = "字数";
+"stats.characters" = "字符";
+"stats.reading-time" = "阅读时间";
+"stats.minutes %lld" = "约 %lld 分钟";
+
+"image.choose" = "选择图片…";
+"image.choose-photos" = "从照片选择…";
+"image.choose-files" = "从文件选择…";
+"image.enter-path" = "输入图片路径…";
+"image.save-document-first" = "请先保存 Markdown 文档，再导入图片。";
+"image.invalid-source" = "所选项目不是有效的图片文件。";
+"image.too-large" = "所选图片超过 100 MB。";
+"image.paste-too-large" = "粘贴或拖入的图片不能超过 25 MB；更大的文件请使用图片选择器导入。";
+"image.destination-unavailable" = "Mossmark 无法创建安全的相对图片路径。";
+
+"table.insert" = "插入表格";
+"table.rows" = "行";
+"table.columns" = "列";
+"table.alignment" = "对齐";
+"table.row-before" = "在上方添加行";
+"table.row-after" = "在下方添加行";
+"table.delete-row" = "删除当前行";
+"table.column-before" = "在左侧添加列";
+"table.column-after" = "在右侧添加列";
+"table.delete-column" = "删除当前列";
+"table.align-left" = "左对齐";
+"table.align-center" = "居中对齐";
+"table.align-right" = "右对齐";
+"table.place-cursor" = "请先把光标放在表格单元格内。";
+
+"find.match-count %lld" = "共 %lld 处";
+"find.case-sensitive" = "区分大小写";
+"statusbar.words %lld" = "%lld 字";
+"settings.reading" = "阅读";
+"settings.font-size" = "正文字号";
+"settings.content-width" = "行宽";
+"settings.width-narrow" = "窄";
+"settings.width-standard" = "标准";
+"settings.width-wide" = "宽";
+"settings.spell-check" = "拼写检查";
+"settings.full-width" = "满宽布局";
+"settings.status-bar" = "底部状态栏";
+"empty.document.title" = "空白文档";
+"empty.document.hint" = "切换到编辑模式开始写作。";
+"editor.loading" = "正在载入编辑器…";
+"print.menu-item" = "打印…";
+"share.title" = "分享";
+"share.markdown" = "分享 Markdown…";
+"share.pdf" = "转换为 PDF 并分享…";
+"share.docx" = "转换为 DOCX 并分享…";
+"share.html" = "转换为 HTML 并分享…";
+"outline.navigation-failed" = "暂时无法跳转到该标题，请等待文档载入完成后重试。";
+
+"common.cancel" = "取消";
+
+"library.title" = "文稿";
+"library.recent" = "最近打开";
+"library.all" = "全部文稿";
+"library.search" = "搜索文稿";
+"library.new" = "新建文稿";
+"library.import" = "从文件导入";
+"library.untitled" = "未命名";
+"library.copy-name %@" = "%@ 副本";
+"library.rename" = "重命名";
+"library.rename.title" = "重命名文稿";
+"library.duplicate" = "复制";
+"library.delete" = "删除";
+"library.delete.confirm %@" = "删除“%@”？此操作无法撤销。";
+"library.empty.title" = "暂无文稿";
+"library.empty.hint" = "新建一篇文稿，或从文件 App 导入 Markdown 文件。";
+"library.error.invalid-name" = "名称不能为空，也不能包含 / \\ : ? % * | \" < > 字符。";
+"library.error.name-exists %@" = "已存在名为“%@”的文稿。";
